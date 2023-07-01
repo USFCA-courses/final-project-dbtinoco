@@ -2,7 +2,12 @@
 
 Adam Ansari, Daniel Tinoco, Yusong Wang
 
+## Task Proposal
+
+The task proposal pdf outlines our intentions, a brief desription of our goals and results, and also provides references to relevant sources.
+
 ## Running the Notebook
+
 The following notebook details the process of creating a Huggingface style dataset of audio samples with their respective text and creating speaker embeddings using Speechbrain's VoxCeleb model. This is then passed into Microsoft's SpeechT5 model for generating speech given some text input.
 
 We recommend running this notebook on Google Colab with NVIDIA A100. During testing, we used approximately 200 computation units for 158 audio samples and 400 epochs. It should be mentioned that we ran this multiple times, so your units may vary. 10 to 20 units should suffice for a single run of the notebook with a similar data size.
@@ -18,3 +23,7 @@ https://drive.google.com/drive/folders/1T-hKJVBv9Ww4RPknT5WCwlVWbGKVHfwn?usp=sha
 ## Viewing the PowerPoint
 
 To view the slides, click here: https://docs.google.com/presentation/d/1W0wwmMcyRBXhGJQQ8YxpH1YOAs_UpkShZbJ1xXalUkg/edit?usp=sharing. A PDF version of the slides is provided in the repo but the PDF does not have sound file output at the end. For the best experience we reccomend going through the slides at the link above. 
+
+## Video Presentation
+
+Our final presentation recording details our work and covers the content of the slides. See `final_presentation.mp4`.
